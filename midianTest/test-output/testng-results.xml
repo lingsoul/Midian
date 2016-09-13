@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17175" started-at="2016-09-13T03:36:23Z" finished-at="2016-09-13T03:36:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17175" started-at="2016-09-13T03:36:23Z" finished-at="2016-09-13T03:36:40Z">
+      <class name="com.midian.webtest.dataprovider.AddCookies">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.midian.webtest.dataprovider.AddCookies@198378d]" name="beforeTest" is-config="true" duration-ms="6694" started-at="2016-09-13T11:36:23Z" finished-at="2016-09-13T11:36:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="addCookies(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.midian.webtest.dataprovider.AddCookies@198378d]" name="addCookies" duration-ms="10269" started-at="2016-09-13T11:36:30Z" data-provider="getUrlInfoArray" finished-at="2016-09-13T11:36:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://ming.dev.bizcn.com/home/index/index.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10110]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCookies -->
+      </class> <!-- com.midian.webtest.dataprovider.AddCookies -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

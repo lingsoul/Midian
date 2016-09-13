@@ -1,0 +1,113 @@
+<html>
+<head>
+<title>TestNG:  Test-class test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test-class test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Sep 13 11:27:15 CST 2016</td>
+</tr>
+<tr><td>Total time:</td><td>32 seconds (32722 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.midian.webtest.use.PublishAucFix.publishAuction()'><b>publishAuction</b><br>Test class: com.midian.webtest.use.PublishAucFix<br/>
+<a href="#Output-27161758" onClick='toggleBox("Output-27161758", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-27161758" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-27161758">
+--------------开始执行publishAuction()-------------<br /><br/>
+开始执行用例：发布拍卖-----------<br /><br/>
+--------------可交易域名查询成功！-------------<br /><br/>
+--------------进行发布域名拍卖交易！-------------<br /><br/>
+--------------填写域名拍卖交易信息成功！-------------<br /><br/>
+--------------发布域名拍卖结果截图成功！-------------<br /><br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>com.midian.webtest.use.PublishAucFix@d56d67</td></tr>
+<tr>
+<td title='com.midian.webtest.use.PublishAucFix.publishFixedPrice()'><b>publishFixedPrice</b><br>Test class: com.midian.webtest.use.PublishAucFix<br/>
+<a href="#Output-22975346" onClick='toggleBox("Output-22975346", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-22975346" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-22975346">
+--------------开始执行publishFixedPrice()-------------<br /><br/>
+开始执行用例：发布一口价-----------<br /><br/>
+--------------可交易域名查询成功！-------------<br /><br/>
+--------------进行发布一口价域名交易！-------------<br /><br/>
+--------------填写一口价域名交易信息成功！-------------<br /><br/>
+--------------发布一口价结果截图成功！-------------<br /><br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>com.midian.webtest.use.PublishAucFix@d56d67</td></tr>
+</table><p>
+</body>
+</html>

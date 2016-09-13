@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [Test-class Suite]" parallel="classes">
+  <test name="Test-class test(failed)" parallel="classes">
+    <classes>
+      <class name="com.midian.webtest.use.PublishAucFix">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.midian.webtest.use.PublishAucFix -->
+      <class name="com.midian.webtest.use.tradeRegister">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="tradeRegister"/>
+        </methods>
+      </class> <!-- com.midian.webtest.use.tradeRegister -->
+    </classes>
+  </test> <!-- Test-class test(failed) -->
+</suite> <!-- Failed suite [Test-class Suite] -->
