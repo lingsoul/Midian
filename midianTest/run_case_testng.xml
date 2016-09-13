@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<suite name="Test-class Suite" parallel="classes" thread-count="3" >
-  <test name="Test-class test" >
-    <classes>
-      <class name="com.midian.webtest.use.PublishAucFix" />
-      <class name="com.midian.webtest.use.tradeRegister" />
-    </classes>
-  </test>
-</suite>
