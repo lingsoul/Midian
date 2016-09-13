@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31739" started-at="2016-09-12T10:53:36Z" finished-at="2016-09-12T10:54:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31739" started-at="2016-09-12T10:53:36Z" finished-at="2016-09-12T10:54:08Z">
+      <class name="com.midian.webtest.use.PublishAucFix">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.midian.webtest.use.PublishAucFix@d25987]" name="beforeTest" is-config="true" duration-ms="7306" started-at="2016-09-12T18:53:36Z" finished-at="2016-09-12T18:53:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="publishFixedPrice()[pri:0, instance:com.midian.webtest.use.PublishAucFix@d25987]" name="publishFixedPrice" duration-ms="12072" started-at="2016-09-12T18:53:43Z" finished-at="2016-09-12T18:53:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- publishFixedPrice -->
+        <test-method status="PASS" signature="publishAuction()[pri:0, instance:com.midian.webtest.use.PublishAucFix@d25987]" name="publishAuction" duration-ms="12345" started-at="2016-09-12T18:53:55Z" depends-on-methods="com.midian.webtest.use.PublishAucFix.publishFixedPrice" finished-at="2016-09-12T18:54:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- publishAuction -->
+      </class> <!-- com.midian.webtest.use.PublishAucFix -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
